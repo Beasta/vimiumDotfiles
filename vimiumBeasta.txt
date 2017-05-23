@@ -1,0 +1,41 @@
+// Vimium for barryblaha@gmail.com
+wi: http://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
+gc: https://www.google.com/calendar/render?q=%s googleCalendar
+gd: https://drive.google.com/drive/search?q=%s googleDrive
+gm: https://inbox.google.com/search/%s?pli=1 gmail
+cm: https://coinmarketcap.com/currencies/search/?q=%s coinMarketCap
+fb: https://www.facebook.com/search/top/?q=%s facebook
+en: https://www.evernote.com/Home.action#ses=1&sh=5&sds=5&x=%s& evernote
+hn: https://hn.algolia.com/?query=%s&sort=byPopularity&prefix=false&page=0&dateRange=all
+&type=story hackerNews
+to: https://1337x.to/search/%s/1/ 1337x.to
+tor: https://torrentz.eu/search?q=%s torrentz.eu
+im: http://www.imdb.com/find?ref_=nv_sr_fn&q=%s&s=all imdb
+go: http://www.google.com/search?q=%s Google
+gl: http://www.google.com/search?q=%s&btnI I'm feeling lucky...
+yt: http://www.youtube.com/results?search_query=%s Youtube
+ma: https://www.google.com/maps?q=%s Google maps
+# b: https://www.bing.com/search?q=%s Bing
+# d: https://duckduckgo.com/?q=%s DuckDuckGo
+am: http://www.amazon.com/s/?field-keywords=%s Amazon
+# qw: https://www.qwant.com/?q=%s Qwant
+li: https://www.linkedin.com/vsearch/f?type=all&keywords=%s linkedIn
+ye: https://www.yelp.com/search?find_desc=%s yelp
+gh: https://github.com/search?utf8=%E2%9C%93&q=%s github
+np: https://www.npmjs.com/search?q=%s npm 
+eb: http://www.ebay.com/sch/i.html?_odkw=%s&LH_Complete=1&LH_Sold=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%s.TRS0&_nkw=%s&_sacat=0 ebay
+cl: https://sandiego.craigslist.org/search/sss?query=%s&sort=rel
+cc: http://coincap.io/%s
+cg: https://www.coingecko.com/coins/search?utf8=%E2%9C%93&query=%s coingecko
+ups: https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=%s
+gt: https://translate.google.com/#auto/en/%s
+dd: http://devdocs.io/#q=%s
+es: http://eslint.org/docs/rules/%s
+bbca: https://blockchain.info/address/%s
+bbct: https://blockchain.info/tx/%s
+dbca: https://chainz.cryptoid.info/dash/address.dws?%s.htm
+dbct: https://chainz.cryptoid.info/dash/tx.dws?%s.htm
+ebca: https://etherscan.io/address/%s
+ebct: https://etherscan.io/tx/%s
+ens: https://etherscan.io/enslookup?q=%s
+gld: https://www.glassdoor.com/Reviews/%s-reviews-SRCH_KE0,5.htm
