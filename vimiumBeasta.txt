@@ -19,7 +19,7 @@ ma: https://www.google.com/maps?q=%s Google maps
 # d: https://duckduckgo.com/?q=%s DuckDuckGo
 am: http://www.amazon.com/s/?field-keywords=%s Amazon
 # qw: https://www.qwant.com/?q=%s Qwant
-li: https://www.linkedin.com/vsearch/f?type=all&keywords=%s linkedIn
+li: https://www.linkedin.com/search/results/index/?keywords=%s&origin=VIMIUM
 ye: https://www.yelp.com/search?find_desc=%s yelp
 gh: https://github.com/search?utf8=%E2%9C%93&q=%s github
 np: https://www.npmjs.com/search?q=%s npm 
