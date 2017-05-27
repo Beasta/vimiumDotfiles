@@ -8,7 +8,8 @@ fb: https://www.facebook.com/search/top/?q=%s facebook
 en: https://www.evernote.com/Home.action#ses=1&sh=5&sds=5&x=%s& evernote
 hn: https://hn.algolia.com/?query=%s&sort=byPopularity&prefix=false&page=0&dateRange=all
 &type=story hackerNews
-to: https://1337x.to/search/%s/1/ torrents
+to: https://1337x.to/search/%s/1/ 1337x.to
+pb: https://thepiratebay.org/search/%s pirateBay
 im: http://www.imdb.com/find?ref_=nv_sr_fn&q=%s&s=all imdb
 go: http://www.google.com/search?q=%s Google
 gl: http://www.google.com/search?q=%s&btnI I'm feeling lucky...
