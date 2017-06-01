@@ -24,18 +24,19 @@ ye: https://www.yelp.com/search?find_desc=%s yelp
 gh: https://github.com/search?utf8=%E2%9C%93&q=%s github
 np: https://www.npmjs.com/search?q=%s npm 
 eb: http://www.ebay.com/sch/i.html?_odkw=%s&LH_Complete=1&LH_Sold=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%s.TRS0&_nkw=%s&_sacat=0 ebay
-cl: https://sandiego.craigslist.org/search/sss?query=%s&sort=rel
-cc: http://coincap.io/%s
+cl: https://sandiego.craigslist.org/search/sss?query=%s&sort=rel craigslist
+cc: http://coincap.io/%s coincap
 cg: https://www.coingecko.com/coins/search?utf8=%E2%9C%93&query=%s coingecko
-ups: https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=%s
-gt: https://translate.google.com/#auto/en/%s
-dd: http://devdocs.io/#q=%s
-es: http://eslint.org/docs/rules/%s
-bbca: https://blockchain.info/address/%s
-bbct: https://blockchain.info/tx/%s
-dbca: https://chainz.cryptoid.info/dash/address.dws?%s.htm
-dbct: https://chainz.cryptoid.info/dash/tx.dws?%s.htm
-ebca: https://etherscan.io/address/%s
-ebct: https://etherscan.io/tx/%s
-ens: https://etherscan.io/enslookup?q=%s
-gld: https://www.glassdoor.com/Reviews/%s-reviews-SRCH_KE0,5.htm
+ups: https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=%s ups
+gt: https://translate.google.com/#auto/en/%s google translate
+dd: http://devdocs.io/#q=%s devdocs
+es: http://eslint.org/docs/rules/%s eslint
+bbca: https://blockchain.info/address/%s bitcoin blockchain address
+bbct: https://blockchain.info/tx/%s bitcoin blockchain transaction
+dbca: https://chainz.cryptoid.info/dash/address.dws?%s.htm dash blockchain address
+dbct: https://chainz.cryptoid.info/dash/tx.dws?%s.htm dash blockchain transaction
+ebca: https://etherscan.io/address/%s ethereum blockchain address
+ebct: https://etherscan.io/tx/%s ethereum blockchain transaction
+ens: https://etherscan.io/enslookup?q=%s ethereum name service
+gld: https://www.glassdoor.com/Reviews/%s-reviews-SRCH_KE0,5.htm glass door
+bi: https://www.biblegateway.com/passage/?search=%s&version=NKJV bible gateway
