@@ -40,3 +40,4 @@ ebct: https://etherscan.io/tx/%s ethereum blockchain transaction
 ens: https://etherscan.io/enslookup?q=%s ethereum name service
 gld: https://www.glassdoor.com/Reviews/%s-reviews-SRCH_KE0,5.htm glass door
 bi: https://www.biblegateway.com/passage/?search=%s&version=NKJV bible gateway
+cs https://searchcode.com/?q=%s code search
