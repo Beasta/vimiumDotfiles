@@ -22,7 +22,7 @@ am: http://www.amazon.com/s/?field-keywords=%s Amazon
 li: https://www.linkedin.com/search/results/index/?keywords=%s&origin=VIMIUM linkedIn
 ye: https://www.yelp.com/search?find_desc=%s yelp
 gh: https://github.com/search?utf8=%E2%9C%93&q=%s github
-np: https://www.npmjs.com/search?q=%s npm 
+np: https://www.npmjs.com/search?q=%s npm
 eb: http://www.ebay.com/sch/i.html?_odkw=%s&LH_Complete=1&LH_Sold=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%s.TRS0&_nkw=%s&_sacat=0 ebay
 cl: https://sandiego.craigslist.org/search/sss?query=%s&sort=rel craigslist
 cc: http://coincap.io/%s coincap
