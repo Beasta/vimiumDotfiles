@@ -1,43 +1,111 @@
 # Vimium for barryblaha@gmail.com
+
+# alternate searx
+# https://searx.tuxcloud.net//?preferences=eJxlVU2P4zYM_TX1xcii2z3sKYd-ANsFCsyiM-1VoCXaYS2JXkpOxvvrS8VOIs8ckkCUHvn4-BELGQcWwnQcMKKAbzzEYYYBjxgPX35rPFvw5dDAnNlymDxmPLrZjuUzcENBX5tJ-HU5vsiMTcB8Ynf89vT80iToMSGIPR1_bvIJAx45WZBGMM0-J8PRRLyYDN0KdkxG79ifUY4MevzAMjRX0CHlRbl4Hsiyw_PBgYyNowSdR2cwDhQ1k14Q28R9voBg60jQZpbFGMo__fJ7ICtcbluw4FCPxiRLGC3qbeZx4czpxCNEY3rymNS8QHT4aswmklrsLKKYpbYNzIPHdvKwtDBN6YF3s8NYP-0oDu1VOX21_l6tuVNRMW9cMS-Bo9esamzvyY5SwWAa20AiLBvu42t1-yalMznk9GC7nis72CHxbEyYE9n3-JvZAXlll4lrp46GLj_yHmjQ2kDKNf-4ANTst3g3TC8URwK700XVekd07avSCW352nLfGNxoUoQKgsIXcrs6WnvI59qrhShtyjLbPEspz6M76gIHPhPWdOaY9CKdKt5hCRi09dosEJPXYdvFHih76DbePGEE7VUHGRLmXdzeCRfad1lrHiXRR749CHMdZIHT3uDI5h-8b6mPnz59fq17A3HMFK7NWcidGVTTxJbAtwEdwVX_HxHCzjWeCWIGyZUInruU8YPcfD1Wx_sBSBgUT7ZN9sQepBZhK-y7Pr2D1766CbGeHmUtrKayqSq-J-gEytdGrRcI4KmTWzOtTm6ylxIJTlwN9o3EPU7g_1S7OkhpUjpjS2k3xGuddPelqvjT3OlwQxmqXQNcaKTSGLWHwhO0t4ol7Z1_v6iKb9RtNMJuTZah2hXvXped1Q2tw54ibaTeRLkbHnt48rNGSMcnTcqse97oDhvvy77TKUwoZek_aN1Q_1I4eBrRnDiPuBR1nq-DXtB2_b9aTEKvW13vrkF-tRZTMn88fdV4F6GMV5TvzdfYs4RVULW9COh6FfPP33_pSx1hFLXqo5IfquDCvqT258vLt-ebr_8B8a2ykw==&q=%s
+
 wi: http://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
 gc: https://www.google.com/calendar/render?q=%s googleCalendar
 gd: https://drive.google.com/drive/search?q=%s googleDrive
+gt: https://trends.google.com/trends/explore?date=all&q=%s google trends
+gco: https://www.google.com/trends/correlate/search?e=%s&t=all&p=us google correlate
+gcom: https://www.google.com/trends/correlate/search?e=%s&t=monthly&p=us google correlate monthly
+gcos: https://www.google.com/trends/correlate/search?e=%s&t=all google correlate states
+gcow: https://www.google.com/trends/correlate/search?e=%s&t=weekly&p=us google correlate weekly
 gm: https://inbox.google.com/search/%s?pli=1 gmail
-cm: https://coinmarketcap.com/currencies/search/?q=%s coinMarketCap
-fb: https://www.facebook.com/search/top/?q=%s facebook
+gi: https://www.google.com/search?q=%s&tbm=isch
+cm: https://coinmarketcap.com/currencies/%s coinMarketCap
+fb: https://mbasic.facebook.com/search/top/?q=%s facebook
+fbu: https://www.facebook.com/%s
 en: https://www.evernote.com/Home.action#ses=1&sh=5&sds=5&x=%s& evernote
 hn: https://hn.algolia.com/?query=%s&sort=byPopularity&prefix=false&page=0&dateRange=all
 &type=story hackerNews
 to: https://1337x.to/search/%s/1/ 1337x.to
-pb: https://thepiratebay.org/search/%s pirateBay
+tor: https://torrentz.to/search?f=%s torrentz.to
 im: http://www.imdb.com/find?ref_=nv_sr_fn&q=%s&s=all imdb
 go: http://www.google.com/search?q=%s Google
+goy: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s google from the last year
 gl: http://www.google.com/search?q=%s&btnI I'm feeling lucky...
-yt: http://www.youtube.com/results?search_query=%s Youtube
+yt: https://www.youtube.com/results?search_query=%s Youtube
+#yt: https://invidio.us/search?q=%s invidio
 ma: https://www.google.com/maps?q=%s Google maps
 # b: https://www.bing.com/search?q=%s Bing
-# d: https://duckduckgo.com/?q=%s DuckDuckGo
+ddg: https://duckduckgo.com/?q=%s DuckDuckGo
 am: http://www.amazon.com/s/?field-keywords=%s Amazon
-# qw: https://www.qwant.com/?q=%s Qwant
-li: https://www.linkedin.com/search/results/index/?keywords=%s&origin=VIMIUM linkedIn
+li: https://www.linkedin.com/search/results/all/?&keywords=%s&origin=1%27+UNION+SELECT+1%3B--+ linked in
 ye: https://www.yelp.com/search?find_desc=%s yelp
 gh: https://github.com/search?utf8=%E2%9C%93&q=%s github
-np: https://www.npmjs.com/search?q=%s npm
+np: https://www.npmjs.com/search?q=%s npm 
 eb: http://www.ebay.com/sch/i.html?_odkw=%s&LH_Complete=1&LH_Sold=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%s.TRS0&_nkw=%s&_sacat=0 ebay
-cl: https://sandiego.craigslist.org/search/sss?query=%s&sort=rel craigslist
-cc: http://coincap.io/%s coincap
-cg: https://www.coingecko.com/coins/search?utf8=%E2%9C%93&query=%s coingecko
-ups: https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=%s ups
-gt: https://translate.google.com/#auto/en/%s google translate
-dd: http://devdocs.io/#q=%s devdocs
-es: http://eslint.org/docs/rules/%s eslint
-bbca: https://blockchain.info/address/%s bitcoin blockchain address
-bbct: https://blockchain.info/tx/%s bitcoin blockchain transaction
-dbca: https://chainz.cryptoid.info/dash/address.dws?%s.htm dash blockchain address
-dbct: https://chainz.cryptoid.info/dash/tx.dws?%s.htm dash blockchain transaction
-ebca: https://etherscan.io/address/%s ethereum blockchain address
-ebct: https://etherscan.io/tx/%s ethereum blockchain transaction
-ens: https://etherscan.io/enslookup?q=%s ethereum name service
-gld: https://www.glassdoor.com/Reviews/%s-reviews-SRCH_KE0,5.htm glass door
-bi: https://www.biblegateway.com/passage/?search=%s&version=NKJV bible gateway
-cs https://searchcode.com/?q=%s code search
+cl: https://sandiego.craigslist.org/search/sss?query=%s&sort=rel
+cc: http://coincap.io/%s
+#cg: https://www.coingecko.com/coins/search?utf8=%E2%9C%93&query=%s coingecko
+cg: https://www.coingecko.com/en/coins/%s
+ups: https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=%s
+gtr: https://translate.google.com/#auto/en/%s google translate
+dd: http://devdocs.io/#q=%s
+es: http://eslint.org/docs/rules/%s
+bbca: https://blockchain.info/address/%s
+#bbct: https://blockchain.info/tx/%s
+bbct: https://www.blockonomics.co/api/tx?txid=%s
+dbca: https://chainz.cryptoid.info/dash/address.dws?%s.htm
+dbct: https://chainz.cryptoid.info/dash/tx.dws?%s.htm
+dibca: https://chainz.cryptoid.info/divi/address.dws?%s.htm divi blockchain address
+dibct: https://chainz.cryptoid.info/divi/tx.dws?%s.htm divi blockchain transaction
+ebca: https://etherscan.io/address/%s
+ebcb: https://etherscan.io/block/%s ethereum blockchain block
+ebct: https://etherscan.io/tx/%s
+ebb: https://etherscan.io/block/%s ethereum blockchain block
+ean: https://etherscan.io/mynotes_address?q=%s etherscan address note
+etn: https://etherscan.io/mynotes_tx?q=%s
+osa: https://opensea.io/accounts/%s
+zfa: https://zapper.fi/account/%s zapper fi account
+sbca: https://explorer.solana.com/address/%s solana blockchain address
+hbca: https://explorer.helium.com/accounts/%s helium blockchain address
+hbha: https://api.helium.io/v1/hotspots/%s helium blockchain hotspot api - 
+hbct: https://api.helium.io/v1/pending_transactions/%s helium blockchain transaction
+zbca: https://explorer.zcha.in/accounts/%s
+zbct: https://explorer.zcha.in/transactions/%s
+xbca: https://xchain.io/address/%s
+ens: https://etherscan.io/enslookup-search?search=%s
+gld: https://www.glassdoor.com/Reviews/%s-reviews-SRCH_KE0,5.htm
+ssa: https://shapeshift.io/txstat/%s
+dpt: https://thediviproject.atlassian.net/browse/%s
+bpid: https://bitpay.com/invoiceData/%s?poll=false bitpay id
+st: https://www1.avalara.com/taxrates/en/state-rates/zip/%s/ sales tax by zipcode
+ac: https://www.allareacodes.com/%s phone area code lookup
+zc: https://www.unitedstateszipcodes.org/%s zip code lookup
+usps: https://tools.usps.com/go/TrackConfirmAction?tLabels=%s
+#ph: https://api.everyoneapi.com/v1/phone/1%s?account_sid=ACc771571df13f4caea7de51c6c38ef277&auth_token=AU3622a3f8e7434593997639f525016cd6&data=name,address,location,cnam,carrier,carrier_o,gender,linetype,image,line_provider,profile
+ph: https://api.pipl.com/search/?phone=%s&key=of0s10xlt81a614amf2h8br8 pipl phone lookup
+email: https://api.pipl.com/search/?email=%s&key=of0s10xlt81a614amf2h8br8 pipl email lookup
+name: https://api.pipl.com/search/?raw_name=%s&key=of0s10xlt81a614amf2h8br8 pipl raw name lookup
+username: https://api.pipl.com/search/?username=%s&key=of0s10xlt81a614amf2h8br8 pipl username lookup
+tr: https://translate.google.com/#auto/en/%s google translate auto to english (also try trsp)
+trsp: https://translate.google.com/#en/es/%s google translate english to spanish
+pi: https://www.pinterest.com/search/pins/?q=%s&rs=typo_auto_original&auto_correction_disabled=true
+site: javascript:location='http://www.google.com/search?num=100&q=site:'+escape(location.hostname)+'+%s'
+fe: https://feedly.com/i/search/%s feedly
+cs: https://chrome.google.com/webstore/search/%s?_category=extensions chrome webstore extensions search
+fs: https://www.fakespot.com/product/%s fakespot
+sc: https://www.scribd.com/search?content_type=tops&page=1&query=%s&language=1 scribd
+ipfsd: http://my.ipfs.dnp.dappnode.eth:8080/ipfs/%s ipfs ipfs dappnode
+ipfsp https://gateway.pinata.cloud/ipfs/%s ipfs pinata
+ipfsi https://ipfs.io/ipfs/%s ipfsi 
+aoh: https://www.amazon.com/gp/your-account/order-history/?search=%s amazon order history
+bh: chrome://history/?q=%s browsing history
+tw: https://twitter.com/search?q=%s&src=vimium
+wm: https://web.archive.org/web/*/%s
+pc: https://www.listennotes.com/search/?q=%s&sort_by_date=0&scope=episode&offset=0&language=Any%20language&len_min=0
+ud: https://www.urbandictionary.com/define.php?term=%s
+ly: https://genius.com/search?q=%s lyrics search
+em: https://emojifinder.com/%s emoji finder
+gif: https://giphy.com/explore/%s giphy
+le: https://www.lifeextension.com/search/#q=%s
+ip: https://whatismyipaddress.com/ip/%s
+rh: https://robinhood.com/stocks/%s
+gf: https://www.google.com/flights/#flt=SAN.%s.2020-03-10*%s.SAN.2020-03-14
+gfsd: https://www.google.com/flights/#flt=SAN.%s.2020-03-10*%s.SAN.2020-03-14
+gfLA: https://www.google.com/flights/#flt=LAX.%s.2020-03-10*%s.LAX.2020-03-14
+oss: https://opensea.io/assets?query=%s
+giu: https://www.google.com/searchbyimage?image_url=%s google image url search
+gif: https://gfycat.com/gifs/search/%s
